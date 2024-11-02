@@ -6,7 +6,7 @@ const port = process.env.PORT;
 const mainRoutes=require('./src/routes/mainRoutes')
 
 app.use(cors({
-    origin: 'http://localhost:3000', // Frontend URL
+    origin: 'https://you-care-client.vercel.app/', // Frontend URL
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
     credentials: true // Allows cookies to be sent
 }));
